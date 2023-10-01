@@ -1,5 +1,5 @@
 {
-  "name": "Book-Search-Engine",
+  "name": "book-search-engine",
   "version": "1.0.0",
   "description": "A book search engine demonstrating M.E.R.N. stack development by using using Google Books API and GraphQL with Apollo Server to fetch and modify data, replacing the old RESTful API method.",
   "main": "server/server.js",
