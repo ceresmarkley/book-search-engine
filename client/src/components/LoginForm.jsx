@@ -1,4 +1,4 @@
-// see SignupForm.js for comments
+// see SignupForm.jsx for comments
 import { useState } from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
 import { useMutation } from '@apollo/client';
@@ -49,7 +49,7 @@ const LoginForm = () => {
           Something went wrong with your login credentials!
         </Alert>
         <Form.Group className='mb-3'>
-          <Form.Label >Email</Form.Label>
+          <Form.Label input='string'>Email</Form.Label>
           <Form.Control
             type='email'
             placeholder='Your email'
