@@ -4,8 +4,8 @@
   "description": "A book search engine demonstrating M.E.R.N. stack development by using using Google Books API and GraphQL with Apollo Server to fetch and modify data.",
   "main": "server/server.js",
   "engines": {
-    "node": "v18.16.1",
-    "npm": "9.5.1"
+    "node": "20.6.1",
+    "npm": "10.1.0"
   },
   "scripts": {
     "start": "node server/server.js",
@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "node": "^20.7.0",
-    "npm": "^10.1.0"
+    "npm": "^10.1.0",
+    "npm-check-updates": "^16.14.4"
   }
 }
